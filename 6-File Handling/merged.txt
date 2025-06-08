@@ -1,0 +1,2 @@
+This data belongs to Donald, it will be replaced and Donald's data will be wiped.This document has exactly 12 words.
+Say, how did I know it?This is a log file. This is an appended string
