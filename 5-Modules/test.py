@@ -4,3 +4,7 @@ from package.subpackages.mult import multiply
 print(addition(2,3))
 print(substraction(4,3))
 print(multiply(4,5))
+
+from mypackage import add
+
+print(add(2, 3))
