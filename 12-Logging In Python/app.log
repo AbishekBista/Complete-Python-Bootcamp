@@ -1,10 +1,77 @@
-2024-06-19 12:25:46-root-DEBUG-This is a debug message
-2024-06-19 12:25:46-root-INFO-This is an info message
-2024-06-19 12:25:46-root-WARNING-This is a warning message
-2024-06-19 12:25:46-root-ERROR-This is an error message
-2024-06-19 12:25:46-root-CRITICAL-This is a critical message
-2024-06-19 12:26:04-root-DEBUG-This is a debug message
-2024-06-19 12:26:04-root-INFO-This is an info message
-2024-06-19 12:26:04-root-WARNING-This is a warning message
-2024-06-19 12:26:04-root-ERROR-This is an error message
-2024-06-19 12:26:04-root-CRITICAL-This is a critical message
+2025-06-12 12:13:02-root-DEBUG-Calling the add function
+2025-06-12 12:13:02-root-DEBUG-Adding 3 and 3 = 6
+2025-06-12 12:13:02-root-ERROR-Calling the add function
+2025-06-12 12:13:02-root-ERROR-Adding 3 and 3 = 6
+2025-06-12 12:13:02-root-DEBUG-Defining function sub
+2025-06-12 12:13:02-root-DEBUG-Calling sub function
+2025-06-12 12:13:02-root-ERROR-Defining function sub
+2025-06-12 12:13:02-root-ERROR-Calling sub function
+2025-06-12 12:13:02-root-DEBUG-Defining function sub
+2025-06-12 12:13:02-root-DEBUG-Calling sub function
+2025-06-12 12:13:02-root-ERROR-Defining function sub
+2025-06-12 12:13:02-root-ERROR-Calling sub function
+2025-06-12 12:13:02-root-ERROR-Defining function sub
+2025-06-12 12:13:02-root-ERROR-Calling sub function
+2025-06-12 12:13:02-root-DEBUG-Defining multiplication function
+2025-06-12 12:13:02-root-DEBUG-Calling multiplication function
+2025-06-12 12:13:02-root-DEBUG-Calling div function that'll throw a ZeroDivisionError
+2025-06-12 12:13:02-root-ERROR-division by zero
+Traceback (most recent call last):
+  File "C:\Users\abish\AppData\Local\Temp\ipykernel_8268\3176941013.py", line 16, in div
+    return a /b
+           ~~^~
+ZeroDivisionError: division by zero
+2025-06-12 12:13:02-root-DEBUG-Calling div function that'll throw a ZeroDivisionError
+2025-06-12 12:13:02-root-ERROR-Zero division error encountered
+Traceback (most recent call last):
+  File "C:\Users\abish\AppData\Local\Temp\ipykernel_8268\2252598932.py", line 20, in div
+    return a /b
+           ~~^~
+ZeroDivisionError: division by zero
+Stack (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\traitlets\config\application.py", line 1075, in launch_instance
+    app.start()
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\kernelapp.py", line 739, in start
+    self.io_loop.start()
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\tornado\platform\asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\kernelbase.py", line 545, in dispatch_queue
+    await self.process_one()
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\kernelbase.py", line 534, in process_one
+    await dispatch(*args)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\kernelbase.py", line 437, in dispatch_shell
+    await result
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\ipkernel.py", line 362, in execute_request
+    await super().execute_request(stream, ident, parent)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\kernelbase.py", line 778, in execute_request
+    reply_content = await reply_content
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\ipkernel.py", line 449, in do_execute
+    res = shell.run_cell(
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\ipykernel\zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\interactiveshell.py", line 3100, in run_cell
+    result = self._run_cell(
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\interactiveshell.py", line 3155, in _run_cell
+    result = runner(coro)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\interactiveshell.py", line 3367, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\interactiveshell.py", line 3612, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+  File "d:\Complete-Python-Bootcamp\Lib\site-packages\IPython\core\interactiveshell.py", line 3672, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\abish\AppData\Local\Temp\ipykernel_8268\2252598932.py", line 25, in <module>
+    div(4, 0)
+  File "C:\Users\abish\AppData\Local\Temp\ipykernel_8268\2252598932.py", line 22, in div
+    logging.exception("Zero division error encountered", exc_info=True, stack_info=True, extra=extra)
